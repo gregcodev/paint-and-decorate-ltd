@@ -12,3 +12,11 @@ body {
     font: 15px/1.5 Open Sans, Helvitica, sans-serif;
     background-color: #f4f4f4;
 }
+
+/* Set Global Style */
+
+.header-cont {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
