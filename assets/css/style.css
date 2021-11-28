@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&display=swap');
+
+/* Set all defaults to 0 */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font: 15px/1.5 Open Sans, Helvitica, sans-serif;
+    background-color: #f4f4f4;
+}
