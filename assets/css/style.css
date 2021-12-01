@@ -165,19 +165,26 @@ header a:hover {
     margin-right: 15px;
   }
 
-/* About Us Style */
+/* Sidebar */
 
-  #about-us {
+aside#sidebar {
+    float: right;
+    width: 30%;
     margin-top: 10px;
 }
 
-#about-us h2 {
-    text-align: center;   
+aside#sidebar .quote input, aside#sidebar .quote textarea {
+    width: 90%;
+    padding: 5px;
 }
 
-#about-us p {
-    line-height: 30px;   
+/* Main-col */
+
+article#main-col {
+    float: left;
+    width: 65%;
 }
+
 /* Footer Style */
 
 footer {
