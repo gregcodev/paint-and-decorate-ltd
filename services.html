@@ -27,46 +27,71 @@
             </nav>
         </div>
     </header>
-    <!-- Landing page with image and overlay text -->
-    <section id="hero">
+    <section id="main">
         <div class="container">
-            <h1>Professional Painting & Decorating</h1>
-            <p>We cater for all painting and decorating services for residential and commercial customers.</p>
-        </div>
-    </section>
-    <!-- Newsletter section with form option to Subscribe -->
-    <section id="newsletter">
-        <div class="container">
-        <h1>Subscribe to our Newsletter</h1>
-        <form>
-            <input type="email" placeholder="Enter email" aria-placeholder="Enter email address">                
-            <button type="submit" class="button_1">Subscribe</button>
-        </form>
-    </div>
-    </section>
-    <!-- Testimonial section with customer reviews -->
-    <section id="testimonial">
-        <div class="container">
-            <h2>Testimonials</h2>
-        <div id="test-review">
-            <img src="/assets/images/senr-man-woman.jpg" alt="Happy senior woman and man express positive emotions pose together being still in love isolated over blue wall" style="width: 90px">
-            <p><span>Rosie & Jim.</span> Tipperary.</p>
-            <p>We are delighted with the work that was carried out at our home. The staff were very friendly and Professional.</p>
-          </div>
-          
-          <div id="test-review">
-            <img src="/assets/images/man-woman.jpg" alt="Fun 3d cartoon teenage kids" style="width: 90px">
-            <p><span>Jack & Jill.</span> Dublin.</p>
-            <p>The staff at Paint & Decorate made an amazing transformation to our house renovation. The colours brought it to life. Thank you so much.</p>
-          </div>
-          
-          <div id="test-review">
-            <img src="/assets/images/fashionista.jpg" alt="Beautiful young blonde woman in sunglasses and a hat with packages" style="width: 90px">
-            <p><span>Fashionista.</span> Offaly.</p>
-            <p>Paint & Decorate painted our shop front and we are delighted with the results.
-          We have been receiving some lovely feedback from our customers. Thank you.</p>
-          </div>
-        </div>
+            <article id="main-col">
+                <h1 class="page-title">Services</h1>
+                <ul id="services">
+                    <li><h3>Residential</h3>
+                        <ul>
+                            <li>Painting & Decorating Services
+                                <p>We provide all painting and decorating services, indoor and outdoor for our residential clients.</p></li>
+                            <li>House Extension
+                                <p>Need more space in your home, get in touch with us.</p></li>
+                            <li>House Refurbishment
+                                <p>Give your home a new look, we can help.</p></li>
+                            <li>Home Office
+                                <p>Remote working and need a new home office, contact us for a quote.</p></li>  
+                        </ul>
+                        </li>
+                        <li><h3>Commercial</h3>
+                        <ul>
+                            <li>Painting & Decorating Services
+                                <p>We provide all painting and decorating services, indoor and outdoor for our commercial clients.</p></li> 
+                            <li>Office Extension
+                                <p>Planning to expand your office space, we can assist you.</p></li>
+                            <li>Office Refurbishment
+                                <p>Need to freshen up your office look or change colour, get it touch for a quote.</p></li>
+                        </ul>
+                        </li>
+                        <li><h3>Landlords</h3>
+                        <ul>
+                            <li>Painting & Decorating Services
+                                <p>We provide all painting and decorating services, indoor and outdoor for Landlords.</p></li>
+                            <li>Maintenance Contracts
+                                <p>We can customise maintenance contracts to meet landlord and tenant needs as required.</p></li>
+                        </ul>
+                        </li>
+                    </ul>
+            </article>
+        <!-- Side for Quote Form -->
+        <aside id="sidebar">
+            <div class="dark">
+                <h3>Contact Us</h3>
+                <form class="contact">
+                <div>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" placeholder="Full Name" aria-placeholder="fullname">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Email Address" aria-placeholder="fullname">
+                </div>
+                <div>
+                    <label for="contact-us">Choose reason to contact us:</label>
+                    <select name="contact-us" id="contact-us">
+                        <option value="quote">Get a Quote</option>
+                        <option value="enquiry">General Enquiry</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Enter your message here..." aria-placeholder="Message Box"></textarea>
+                </div>
+                <button class="button_1"aria-placeholder="Submit Form">Send</button>
+            </form>
+            </div>
+        </aside>
     </section>
     <!-- Social Media Network section with links to providers -->
     <footer>

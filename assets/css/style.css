@@ -37,6 +37,11 @@ ul {
     color: #fff;
 }
 
+.button_1:hover {
+    background: #fff;
+    color: #e8491d;
+}
+
 .dark {
     padding: 15px;
     background: #35424a;
@@ -165,6 +170,19 @@ header a:hover {
     margin-right: 15px;
   }
 
+  /* Gallery Photos */
+
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photo img{
+    width: 100%;
+}
+
 /* Sidebar */
 
 aside#sidebar {
@@ -173,7 +191,7 @@ aside#sidebar {
     margin-top: 10px;
 }
 
-aside#sidebar .quote input, aside#sidebar .quote textarea {
+aside#sidebar .contact input, aside#sidebar .contact textarea {
     width: 90%;
     padding: 5px;
 }
@@ -183,6 +201,16 @@ aside#sidebar .quote input, aside#sidebar .quote textarea {
 article#main-col {
     float: left;
     width: 65%;
+}
+
+/* Services Style */
+
+ul#services li {
+    list-style: none;
+    padding: 20px;
+    border: #ccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
 }
 
 /* Footer Style */

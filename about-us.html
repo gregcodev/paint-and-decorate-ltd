@@ -27,23 +27,7 @@
             </nav>
         </div>
     </header>
-    <!-- Landing page with image and overlay text -->
-    <section id="hero">
-        <div class="container">
-            <h1>Professional Painting & Decorating</h1>
-            <p>We cater for all painting and decorating services for residential and commercial customers.</p>
-        </div>
-    </section>
-    <!-- Newsletter section with form option to Subscribe -->
-    <section id="newsletter">
-        <div class="container">
-        <h1>Subscribe to our Newsletter</h1>
-        <form>
-            <input type="email" placeholder="Enter email" aria-placeholder="Enter email address">                
-            <button type="submit" class="button_1">Subscribe</button>
-        </form>
-    </div>
-    </section>
+
     <!-- About Us section -->
     <section id="main">
         <div class="container">
@@ -64,10 +48,40 @@
                     team will get back to you shortly. Thank you.
                 </p>
             </article>
+                <!-- Side for Quote Form -->
+                <aside id="sidebar">
+                    <div class="dark">
+                        <h3>Contact Us</h3>
+                        <form class="contact">
+                        <div>
+                            <label for="fullname">Full Name</label>
+                            <input type="text" placeholder="Full Name" aria-placeholder="fullname">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" placeholder="Email Address" aria-placeholder="fullname">
+                        </div>
+                        <div>
+                            <label for="contact-us">Choose reason to contact us:</label>
+                            <select name="contact-us" id="contact-us">
+                                <option value="quote">Get a Quote</option>
+                                <option value="enquiry">General Enquiry</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" placeholder="Enter your message here..." aria-placeholder="Message Box"></textarea>
+                        </div>
+                        <button class="button_1"aria-placeholder="Submit Form">Send</button>
+                    </form>
+                    </div>
+                </aside>
+            </section>
+        <!--   
         <aside id="sidebar">
             <div class="dark">
                 <h3>What We Do</h3>
-                <ul>
+                <ol>
                     <li>Residential
                         <ul>
                             <li>Painting - Indoor / Outdoor</li>
@@ -92,9 +106,9 @@
                             <li>Maintenance Contracts</li>
                         </ul>
                     </li>
-                </ul>
+                </ol>
             </div>
-        </aside>
+        </aside> --> 
     </div>
     </section>
     <!-- Social Media Network section with links to providers -->
