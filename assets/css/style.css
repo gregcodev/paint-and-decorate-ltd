@@ -257,8 +257,8 @@ footer {
     color: #3a3a3a;
 } 
 
-.zoom {
-    padding: 50px;
+.zoom li {
+    padding: 20px;
     background-color: green;
     transition: transform .2s;
     width: 200px;
